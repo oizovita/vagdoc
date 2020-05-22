@@ -1,0 +1,5 @@
+.vagrant/
+dump.sql/
+logs/
+.env
+ubuntu-bionic-18.04-cloudimg-console.log
