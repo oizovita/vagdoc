@@ -25,13 +25,12 @@ RUN docker-php-ext-install \
     bz2 \
     pdo \
     intl \
-    pgsql \
+    mysqli \
     iconv \
     bcmath \
     opcache \
     calendar \
     mbstring \
-    pdo_pgsql \
     gd
 
 WORKDIR /var/www/html/app
@@ -39,5 +38,3 @@ WORKDIR /var/www/html/app
 COPY ./ ./
 
 EXPOSE 9000
-
-RUN chmod 755 src/
