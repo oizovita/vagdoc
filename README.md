@@ -4,7 +4,7 @@
 
 **Move to directory vagrant**
 
-`cd vagrant`
+`cd vagdoc`
 
 **Setup env**
 
